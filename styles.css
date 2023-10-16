@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;  /* Add this line */
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+
+h1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.example {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.description {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-right: 10px;
+}

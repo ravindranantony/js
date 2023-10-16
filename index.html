@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JavaScript Learning Platform">
+    <meta name="keywords" content="JavaScript, Learning, Examples">
+    <meta name="author" content="Your Name">
+    <title>JavaScript Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Pepper Programming Javascript Session</h1>
+        <p>Explore a wide range of JavaScript examples to enhance your skills.</p>
+    </header>
+
+
+<div class="example">
+    <div class="description">This example demonstrates a simple alert using JavaScript:</div>
+    <button onclick="showAlert()">Click Me</button>
+</div>
+
+<div class="example">
+    <div class="description">This example demonstrates changing the text of a paragraph using JavaScript:</div>
+    <p id="demo">This is a sample text.</p>
+    <button onclick="changeText()">Change Text</button>
+</div>
+
+<!-- Example 3: Toggle Content -->
+<div class="example">
+    <div class="description">Toggle content visibility using JavaScript:</div>
+    <div id="toggleContent" style="display: none;">This content can be toggled.</div>
+    <button onclick="toggleVisibility()">Toggle Content</button>
+</div>
+
+<!-- Example 4: Change Image Source -->
+<div class="example">
+    <div class="description">Change image source using JavaScript:</div>
+    <img id="sampleImage" src="image1.jpg" alt="Sample Image" width="100">
+    <button onclick="changeImage()">Change Image</button>
+</div>
+
+<!-- Example 5: Change Background Color -->
+<div class="example">
+    <div class="description">Change background color using JavaScript:</div>
+    <button onclick="changeBackgroundColor()">Change Background</button>
+</div>
+
+<!-- Example 6: Calculate Sum of Two Numbers -->
+<div class="example">
+    <div class="description">Calculate the sum of two numbers using JavaScript:</div>
+    <input type="number" id="num1" placeholder="Enter number 1">
+    <input type="number" id="num2" placeholder="Enter number 2">
+    <button onclick="calculateSum()">Calculate Sum</button>
+    <div id="sumResult"></div>
+</div>
+
+<!-- Example 7: Mouse Over and Mouse Out Events -->
+<div class="example">
+    <div class="description">Change text on mouse over and revert on mouse out:</div>
+    <p id="hoverText" onmouseover="changeOnHover()" onmouseout="revertOnMouseOut()">Hover over this text.</p>
+</div>
+
+<!-- Example 8: Create Elements Dynamically -->
+<div class="example">
+    <div class="description">Dynamically add elements using JavaScript:</div>
+    <button onclick="addElement()">Add Element</button>
+    <div id="dynamicElements"></div>
+</div>
+
+<!-- Example 9: Get and Display Current Date -->
+<div class="example">
+    <div class="description">Display current date using JavaScript:</div>
+    <button onclick="displayDate()">Show Current Date</button>
+    <div id="currentDate"></div>
+</div>
+
+<!-- Example 10: String to Uppercase -->
+<div class="example">
+    <div class="description">Convert string to uppercase using JavaScript:</div>
+    <input type="text" id="sampleString" placeholder="Enter text">
+    <button onclick="convertToUppercase()">Convert</button>
+    <div id="uppercaseResult"></div>
+</div>
+
+<!-- Example 11: Array Manipulation -->
+<div class="example">
+    <div class="description">Add items to an array and display them:</div>
+    <input type="text" id="arrayItem" placeholder="Enter item">
+    <button onclick="addToItems()">Add</button>
+    <ul id="itemsList"></ul>
+</div>
+
+<!-- Example 12: Window Resize Event -->
+<div class="example">
+    <div class="description">Display window width and height on resize:</div>
+    <div id="windowSize">Resize the window to see dimensions.</div>
+</div>
+
+<div class="example">
+    <div class="description">Fetch data from a mock API:</div>
+    <button onclick="fetchData()">Fetch Data</button>
+    <div id="apiResult"></div>
+</div>
+
+<div class="example">
+    <div class="description">Simple Timer:</div>
+    <button onclick="startTimer()">Start</button>
+    <div id="timer"></div>
+</div>
+
+<div class="example">
+    <div class="description">Simple Form Validation:</div>
+    <input type="text" id="username" placeholder="Enter username">
+    <button onclick="validateForm()">Validate</button>
+    <div id="validationResult"></div>
+</div>
+
+<div class="example">
+    <div class="description">Local Storage:</div>
+    <input type="text" id="localStorageItem" placeholder="Enter item">
+    <button onclick="saveToLocalStorage()">Save</button>
+    <div id="localStorageResult"></div>
+</div>
+
+<div class="example">
+    <div class="description">Change styles dynamically:</div>
+    <div id="styledDiv">This is a styled div.</div>
+    <button onclick="changeStyles()">Change Styles</button>
+</div>
+
+<div class="example">
+    <div class="description">Event Bubbling:</div>
+    <div id="parentDiv" onclick="alert('Parent Div Clicked!')">
+        <div id="childDiv" onclick="alert('Child Div Clicked!')">Click Me!</div>
+    </div>
+</div>
+
+<div class="example">
+    <div class="description">Toggle Classes:</div>
+    <div id="toggleClassDiv">Click to Toggle Class</div>
+    <button onclick="toggleClass()">Toggle Class</button>
+</div>
+
+<div class="example">
+    <div class="description">Clipboard Copy:</div>
+    <input type="text" id="clipboardText" value="Copy Me!">
+    <button onclick="copyToClipboard()">Copy</button>
+</div>
+
+<div class="example">
+    <div class="description">Keyboard Events:</div>
+    <input type="text" id="keyEventInput" onkeydown="showKey(event)">
+    <div id="keyResult"></div>
+</div>
+
+</body>
+</html>
